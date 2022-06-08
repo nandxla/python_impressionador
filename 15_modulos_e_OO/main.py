@@ -7,5 +7,9 @@
 
 import webbrowser as wb
 import time 
+import matplotlib.pyplot as plt
 
-wb.open("http://google.com")
+plt.plot([1, 2, 5, 2, 3])
+plt.show()
+
+# wb.open("http://google.com")
